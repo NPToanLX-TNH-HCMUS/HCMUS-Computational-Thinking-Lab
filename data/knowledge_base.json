@@ -8,7 +8,13 @@
         "tags": [
             "shopping",
             "food",
-            "historical"
+            "historical",
+            "market",
+            "souvenirs",
+            "street-food",
+            "local-products",
+            "night-market",
+            "downtown"
         ]
     },
     {
@@ -20,7 +26,12 @@
         "tags": [
             "museum",
             "architecture",
-            "history"
+            "history",
+            "landmark",
+            "culture",
+            "reunification",
+            "presidential-palace",
+            "city-center"
         ]
     },
     {
@@ -32,7 +43,13 @@
         "tags": [
             "history",
             "war",
-            "exhibition"
+            "exhibition",
+            "museum",
+            "photography",
+            "artifacts",
+            "education",
+            "peace",
+            "historical-site"
         ]
     },
     {
@@ -45,7 +62,13 @@
             "nightlife",
             "walking",
             "entertainment",
-            "photography"
+            "photography",
+            "food",
+            "cafes",
+            "restaurants",
+            "fountain",
+            "old-apartments",
+            "city-center"
         ]
     },
     {
@@ -57,7 +80,13 @@
         "tags": [
             "architecture",
             "french-colonial",
-            "landmark"
+            "landmark",
+            "history",
+            "postcards",
+            "downtown",
+            "photography",
+            "cultural-site",
+            "walking-tour"
         ]
     },
     {
@@ -69,7 +98,13 @@
         "tags": [
             "architecture",
             "church",
-            "landmark"
+            "landmark",
+            "religious-site",
+            "french-architecture",
+            "red-brick",
+            "photography",
+            "downtown",
+            "walking-tour"
         ]
     },
     {
@@ -82,7 +117,13 @@
             "nightlife",
             "bar",
             "backpacker",
-            "party"
+            "party",
+            "restaurants",
+            "music",
+            "street-food",
+            "entertainment",
+            "late-night",
+            "budget-travel"
         ]
     },
     {
@@ -95,7 +136,13 @@
             "history",
             "war",
             "tunnels",
-            "adventure"
+            "adventure",
+            "outdoor-activity",
+            "military-history",
+            "underground",
+            "local-food",
+            "educational",
+            "day-trip"
         ]
     },
     {
@@ -108,7 +155,13 @@
             "modern",
             "skyscraper",
             "view",
-            "shopping"
+            "shopping",
+            "observation-deck",
+            "hotel",
+            "luxury-dining",
+            "city-view",
+            "family",
+            "landmark"
         ]
     },
     {
@@ -120,7 +173,13 @@
         "tags": [
             "wholesale",
             "chinatown",
-            "culture"
+            "culture",
+            "market",
+            "shopping",
+            "local-products",
+            "chinese-community",
+            "architecture",
+            "food"
         ]
     },
     {
@@ -133,7 +192,13 @@
             "nature",
             "family",
             "zoo",
-            "relax"
+            "relax",
+            "botanical-garden",
+            "green-space",
+            "picnic",
+            "wildlife",
+            "plants",
+            "weekend-activity"
         ]
     },
     {
@@ -146,7 +211,13 @@
             "architecture",
             "show",
             "art",
-            "music"
+            "music",
+            "theater",
+            "ballet",
+            "cultural-performance",
+            "french-colonial",
+            "downtown",
+            "evening-activity"
         ]
     },
     {
@@ -158,7 +229,13 @@
         "tags": [
             "art",
             "architecture",
-            "culture"
+            "culture",
+            "museum",
+            "paintings",
+            "sculptures",
+            "french-asian",
+            "history",
+            "indoor-activity"
         ]
     },
     {
@@ -170,7 +247,13 @@
         "tags": [
             "history",
             "museum",
-            "river"
+            "river",
+            "landmark",
+            "ho-chi-minh",
+            "cultural-site",
+            "architecture",
+            "saigon-river",
+            "historical-site"
         ]
     },
     {
@@ -183,7 +266,13 @@
             "church",
             "architecture",
             "pink",
-            "photography"
+            "photography",
+            "religious-site",
+            "gothic",
+            "roman-architecture",
+            "landmark",
+            "colorful",
+            "city-tour"
         ]
     },
     {
@@ -195,7 +284,14 @@
         "tags": [
             "food",
             "fabric",
-            "local"
+            "local",
+            "market",
+            "street-food",
+            "snacks",
+            "desserts",
+            "shopping",
+            "textiles",
+            "near-tan-dinh-church"
         ]
     },
     {
@@ -208,7 +304,14 @@
             "amusement",
             "culture",
             "family",
-            "entertainment"
+            "entertainment",
+            "theme-park",
+            "water-park",
+            "legends",
+            "religion",
+            "history",
+            "rides",
+            "day-trip"
         ]
     },
     {
@@ -221,7 +324,14 @@
             "view",
             "sunset",
             "river",
-            "relax"
+            "relax",
+            "city-view",
+            "night-view",
+            "photography",
+            "lemon-tea",
+            "saigon-river",
+            "outdoor-activity",
+            "high-rise-buildings"
         ]
     },
     {
@@ -234,7 +344,14 @@
             "walking",
             "night",
             "romantic",
-            "bridge"
+            "bridge",
+            "lights",
+            "led-lights",
+            "waterfall",
+            "photography",
+            "date-spot",
+            "phu-my-hung",
+            "evening-activity"
         ]
     },
     {
@@ -247,7 +364,14 @@
             "culture",
             "traditional",
             "herbal",
-            "chinatown"
+            "chinatown",
+            "traditional-medicine",
+            "shopping",
+            "cho-lon",
+            "chinese-culture",
+            "local-experience",
+            "holiday-decorations",
+            "tet"
         ]
     }
 ]

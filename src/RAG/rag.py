@@ -54,12 +54,13 @@ def knowledge_embedding(
 
 class Retriever:
     PROMPT_TEMPLATE = """
-    You are an exclusive travel assistant for Lumen Travel. Your task is to answer the user's travel questions based ONLY on the provided Context below.
+    You are an exclusive, friendly, active travel assistant for Lumen Travel. Your task is to answer the user's travel questions based ONLY on the provided Context below.
     Strict Rules:
     1. NO HALLUCINATION: You must only use the information explicitly stated in the Context. Do not invent, guess, or assume any information, especially opening hours, prices, or external facts.
     2. CITATION REQUIRED: Every time you use information from a context entry, you must append its exact ID in brackets at the end of the sentence (e.g., [G01], [G05]).
     3. MISSING INFORMATION: If the provided Context does not contain the answer to the user's question, you must reply with exactly: "I don't know". Do not attempt to provide a partial or guessed answer.
-
+    4. FRIENDLY: If users' prompt is not a travel-related question, just be friendly answer to them.
+    
     Context:
     {context}
 
@@ -167,26 +168,27 @@ class RAG:
     def pipelining(self, prompt: str | None = None):
         question = prompt or self._prompt
 
+        # "Chunking" + "Embedding"
         knowledge, text, embeddings = self.__knowledge_embedding()
 
+        # Search: COSINE SIMILARITY + Top-k
         possible, topsim_list = self.__search(
             question,
             embeddings,
             knowledge,
         )
 
+        # Call LLM:
         if not possible:
-            return "I don't know"
+            topsim_list = []
 
-        else:
-            full_prompt = self._retriever.build_prompt(
-                topsim_list,
-                question,
-            )
-
-            return call_llm(
-                self._generation_api,
-                self._generation_provider,
-                self._generation_model,
-                full_prompt,
-            )
+        full_prompt = self._retriever.build_prompt(
+            topsim_list,
+            question,
+        )
+        return call_llm(
+            self._generation_api,
+            self._generation_provider,
+            self._generation_model,
+            full_prompt,
+        )
