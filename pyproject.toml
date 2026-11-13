@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "LAB_3_Auth_RAG"
+version = "v1.0.0"
+dependencies = [
+    "transformers[torch]",
+    "requests>=2.34",
+    "streamlit>=1.67.0",
+    "firebase-admin",
+    "dotenv",
+    "numpy",
+]
+
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Ngo Phuoc Toan", email = "nptoan2527@clc.fitus.edu.vn" }]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
