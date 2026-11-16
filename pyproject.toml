@@ -10,13 +10,16 @@ dependencies = [
     "requests>=2.34",
     "streamlit>=1.67.0",
     "firebase-admin",
-    "dotenv",
+    "python-dotenv",
     "numpy",
 ]
 
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{ name = "Ngo Phuoc Toan", email = "nptoan2527@clc.fitus.edu.vn" }]
+
+[project.urls]
+repository = "https://github.com/NPToanLX-TNH-HCMUS/HCMUS-Computational-Thinking-Lab/tree/LAB_3/Authentication-RAG-chatbot"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"]

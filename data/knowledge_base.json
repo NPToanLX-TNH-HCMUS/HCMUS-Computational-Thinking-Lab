@@ -3,7 +3,7 @@
         "id": "G01",
         "title": "Ben Thanh Market",
         "text": "Ben Thanh Market is one of the most famous symbols of Ho Chi Minh City. It sells a wide variety of goods, from clothing and souvenirs to typical street food. The night market next to it is also very bustling.",
-        "source": "Lumen Travel Team",
+        "source": "https://benthanhmarket.vn/",
         "category": "market",
         "tags": [
             "shopping",
@@ -21,7 +21,7 @@
         "id": "G02",
         "title": "Independence Palace",
         "text": "Independence Palace is an important historical monument, formerly the workplace of the President of the Republic of Vietnam. The building features a unique architecture combining modern and traditional Eastern styles, surrounded by a large green campus.",
-        "source": "Lumen Travel Team",
+        "source": "https://dinhdoclap.gov.vn/en/",
         "category": "historical",
         "tags": [
             "museum",
@@ -38,7 +38,7 @@
         "id": "G03",
         "title": "War Remnants Museum",
         "text": "The museum preserves and exhibits artifacts and images about the wars in Vietnam. It brings strong emotions to visitors, helping them better understand the consequences of war and the value of peace.",
-        "source": "Lumen Travel Team",
+        "source": "https://baotangchungtichchientranh.vn/en/",
         "category": "museum",
         "tags": [
             "history",
@@ -56,7 +56,7 @@
         "id": "G04",
         "title": "Nguyen Hue Walking Street",
         "text": "Nguyen Hue Walking Street is a favorite destination for young people and tourists in the evening. It has a spacious area, granite paved sidewalks, a fountain, and is surrounded by many cafes, restaurants, and artistic old apartment buildings.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/pho-di-bo-nguyen-hue-ve-dep-am-thuc-va-trai-nghiem-tai-tp-hcm",
         "category": "street",
         "tags": [
             "nightlife",
@@ -75,7 +75,7 @@
         "id": "G05",
         "title": "Saigon Central Post Office",
         "text": "The Post Office building has a strong French architectural style, built in the late 19th century. Visitors come here not only to admire the architecture but also to send postcards to friends and relatives all over the world.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/quan-1-tphcm-va-nhung-thong-tin-du-lich-huu-ich",
         "category": "historical",
         "tags": [
             "architecture",
@@ -93,7 +93,7 @@
         "id": "G06",
         "title": "Notre-Dame Cathedral Basilica of Saigon",
         "text": "Located right next to the Central Post Office, Notre-Dame Cathedral is an outstanding religious building with red bricks brought from France. This is one of the must-visit check-in spots when coming to downtown Saigon.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/quan-1-tphcm-va-nhung-thong-tin-du-lich-huu-ich",
         "category": "historical",
         "tags": [
             "architecture",
@@ -111,7 +111,7 @@
         "id": "G07",
         "title": "Bui Vien Walking Street",
         "text": "Bui Vien is the sleepless street of Saigon, gathering many bars, pubs, restaurants, and backpackers from all over the world. The atmosphere here is always vibrant with music and street entertainment activities.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/khu-pho-tay-bui-vien-sai-gon-song-dong-voi-pho-khong-ngu",
         "category": "street",
         "tags": [
             "nightlife",
@@ -130,7 +130,7 @@
         "id": "G08",
         "title": "Cu Chi Tunnels",
         "text": "The underground tunnel system hundreds of kilometers long was used by Cu Chi army and people during the war. Visitors can experience crawling through the tunnels, eating boiled cassava with sesame salt, and learning about life underground.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/tham-quan-dia-dao-cu-chi-thanh-pho-duoi-long-dat",
         "category": "historical",
         "tags": [
             "history",
@@ -149,7 +149,7 @@
         "id": "G09",
         "title": "Landmark 81",
         "text": "Landmark 81 is currently the tallest building in Vietnam. It integrates a commercial center, hotel, luxury restaurants, and a high-altitude observation deck for visitors to enjoy a panoramic view of the modern city from above the clouds.",
-        "source": "Lumen Travel Team",
+        "source": "https://vincom.com.vn/store/landmark-81-skyview",
         "category": "landmark",
         "tags": [
             "modern",
@@ -168,7 +168,7 @@
         "id": "G10",
         "title": "Binh Tay Market",
         "text": "Located in an area with a large Chinese population, Binh Tay Market is the largest wholesale hub in Saigon. The market's architecture is a blend of East and West, bringing the characteristic cultural colors of the Chinese community.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/10-khu-cho-doc-dao-nhat-thanh-pho-ban-khong-nen-bo-lo",
         "category": "market",
         "tags": [
             "wholesale",
@@ -186,7 +186,7 @@
         "id": "G11",
         "title": "Saigon Zoo and Botanical Gardens",
         "text": "One of the oldest zoos in the world, the Botanical Gardens is a green lung in the heart of Saigon. This is an ideal space for families to have weekend picnics and learn about rare flora and fauna.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/quan-1-tphcm-va-nhung-thong-tin-du-lich-huu-ich",
         "category": "park",
         "tags": [
             "nature",
@@ -205,7 +205,7 @@
         "id": "G12",
         "title": "Saigon Opera House",
         "text": "The Municipal Theatre is a beautiful architectural work in the Flamboyant style. It regularly hosts academic art performances, ballet, and famous cultural shows like the A O Show.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/quan-1-tphcm-va-nhung-thong-tin-du-lich-huu-ich",
         "category": "theater",
         "tags": [
             "architecture",
@@ -224,7 +224,7 @@
         "id": "G13",
         "title": "Fine Arts Museum",
         "text": "The building features a blend of French and Asian architecture, formerly the mansion of Uncle Hoa - one of the richest men in old Saigon. Currently, it displays thousands of valuable Vietnamese paintings and sculptures.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/bao-tang-my-thuat-thanh-pho-ho-chi-minh-ve-dep-huyen-bi-say-dam-long-nguoi",
         "category": "museum",
         "tags": [
             "art",
@@ -242,7 +242,7 @@
         "id": "G14",
         "title": "Nha Rong Wharf",
         "text": "A famous historical monument located by the Saigon River, where President Ho Chi Minh departed to find a way to save the country. The building has special architecture with two dragons on the roof, currently used as the Ho Chi Minh Museum.",
-        "source": "Lumen Travel Team",
+        "source": "https://bennharong.hochiminh.vn/",
         "category": "historical",
         "tags": [
             "history",
@@ -260,7 +260,7 @@
         "id": "G15",
         "title": "Tan Dinh Church",
         "text": "Dubbed the 'Pink Church', the building attracts many tourists to take pictures because of its vibrant pink color and beautiful Gothic mixed with Roman architecture. This is one of the oldest churches in the city.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/sac-mau-di-san-thanh-pho-ho-chi-minh",
         "category": "historical",
         "tags": [
             "church",
@@ -279,7 +279,7 @@
         "id": "G16",
         "title": "Tan Dinh Market",
         "text": "Located right near Tan Dinh Church, this market is famous as a street food paradise and the most abundant fabric selling place in Saigon. You can enjoy crab soup, sweet soup, and attractive snacks here.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/10-khu-cho-doc-dao-nhat-thanh-pho-ban-khong-nen-bo-lo",
         "category": "market",
         "tags": [
             "food",
@@ -298,7 +298,7 @@
         "id": "G17",
         "title": "Suoi Tien Theme Park",
         "text": "Suoi Tien Cultural Theme Park is a large amusement park with themes revolving around Vietnamese history, legends, and religion. The highlight is Tien Dong Beach - the first artificial beach in Vietnam with a majestic Lac Long Quan mountain range.",
-        "source": "Lumen Travel Team",
+        "source": "https://suoitien.com/?language=en",
         "category": "park",
         "tags": [
             "amusement",
@@ -318,7 +318,7 @@
         "id": "G18",
         "title": "Thu Thiem Tunnel Park",
         "text": "Located on the District 2 (old) side looking towards District 1, this is the most beautiful place to watch the sunset and the sparkling city night view. Young people often come here to drink lemon tea, enjoy the Saigon river breeze, and take pictures with high-rise buildings.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/kham-pha-noc-ham-thu-thiem-diem-hen-cuc-chill-cua-gioi-tre",
         "category": "park",
         "tags": [
             "view",
@@ -338,7 +338,7 @@
         "id": "G19",
         "title": "Starlight Bridge",
         "text": "Starlight Bridge is located in the Phu My Hung urban area, exclusively for pedestrians. In the evening, the bridge is illuminated by thousands of color-changing LED lights on both sides of an artificial waterfall, creating an extremely romantic scene.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/kham-pha-nhanh-cong-vien-cau-anh-sao-ho-ban-nguyet",
         "category": "landmark",
         "tags": [
             "walking",
@@ -358,7 +358,7 @@
         "id": "G20",
         "title": "Chinatown Herbal Street",
         "text": "A famous street for selling traditional Chinese medicine in the Cho Lon area. Just stepping to the beginning of the street, visitors can smell the characteristic aroma of herbs and traditional medicine. During holidays and Tet, the street is also vibrant with decorations.",
-        "source": "Lumen Travel Team",
+        "source": "https://visithcmc.net/en/news/kham-pha-cho-lon-khu-pho-nguoi-hoa-tai-thanh-pho",
         "category": "street",
         "tags": [
             "culture",

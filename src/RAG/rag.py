@@ -114,6 +114,7 @@ class RAG:
         self._embedding_model = embedding_model
 
         self._retriever = Retriever()
+        self.last_retrieved = []
 
     def __knowledge_embedding(self):
         return knowledge_embedding(
@@ -177,6 +178,8 @@ class RAG:
             embeddings,
             knowledge,
         )
+
+        self.last_retrieved = topsim_list
 
         # Call LLM:
         if not possible:

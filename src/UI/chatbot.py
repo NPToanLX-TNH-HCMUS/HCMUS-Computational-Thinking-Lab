@@ -12,6 +12,27 @@ def _render_chat_history() -> None:
             st.markdown(message["content"])
 
 
+def _render_retrieved_entries(retrieved_entries: list[dict]) -> None:
+    if not retrieved_entries:
+        return
+
+    with st.expander("Retrieved entries and similarity scores"):
+        for rank, result in enumerate(retrieved_entries, start=1):
+            entry = result.get("item", {})
+            score = result.get("score", 0.0)
+            entry_id = entry.get("id", "Unknown ID")
+            title = entry.get("title", "Untitled entry")
+            source = entry.get("source", "Unknown source")
+            text = entry.get("text", "")
+
+            st.markdown(
+                f"**{rank}. [{entry_id}] {title}**  \n"
+                f"Similarity score: `{score:.4f}`  \n"
+                f"Source: {source}"
+            )
+            st.caption(text)
+
+
 def _sign_out() -> None:
     st.session_state.authenticated = False
     st.session_state.pop("user", None)
@@ -52,17 +73,22 @@ def render_chatbot_page() -> None:
     with st.chat_message("assistant"):
         with st.spinner("Searching the travel guide and generating an answer..."):
             try:
-                answer = RAG(pinggy_url).pipelining(question)
+                rag_chatbot = RAG(pinggy_url)
+                answer = rag_chatbot.pipelining(question)
+                retrieved_entries = rag_chatbot.last_retrieved
             except OllamaServerError as error:
                 st.error(str(error))
                 answer = None
+                retrieved_entries = []
             except Exception:
                 st.error(
                     "The application could not process your question. "
                     "Please check the configuration and try again."
                 )
                 answer = None
+                retrieved_entries = []
 
         if answer:
             st.markdown(answer)
+            _render_retrieved_entries(retrieved_entries)
             st.session_state.messages.append({"role": "assistant", "content": answer})

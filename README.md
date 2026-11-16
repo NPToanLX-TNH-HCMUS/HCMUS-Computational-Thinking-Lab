@@ -8,6 +8,7 @@
 | Student Name | Ngo Phuoc Toan |
 | Email | nptoan2527@clc.fitus.edu.vn |
 | Chosen City | Ho Chi Minh City, Vietnam |
+| Repository's URL | [Repository's URL](https://github.com/NPToanLX-TNH-HCMUS/HCMUS-Computational-Thinking-Lab/tree/LAB_3/Authentication-RAG-chatbot)
 
 ## Project Overview
 
@@ -118,16 +119,16 @@ streamlit run src/app.py
 
 ## Test Table
 
-The following table defines the required test cases. Retrieved IDs and final correctness should be confirmed against the running Ollama server before submission.
+The six test cases below were executed on 2026-11-16. The run was blocked during the initial embedding request because the configured Pinggy hostname could not be resolved and no local Ollama server was running. The expected entry ID is the reference used to check the final answer.
 
-| # | Question | Type | Expected entry ID | Expected retrieved IDs | Expected result | Status |
-| :---: | :--- | :--- | :---: | :--- | :--- | :--- |
-| 1 | What can I buy at Ben Thanh Market? | Answerable | G01 | G01 among top-k | Correct answer with `[G01]` | Pending runtime verification |
-| 2 | Where can I learn about the Vietnam War? | Answerable | G03 | G03 among top-k | Correct answer with `[G03]` | Pending runtime verification |
-| 3 | Where can I see a panoramic view of the city? | Answerable | G09 | G09 among top-k | Correct answer with `[G09]` | Pending runtime verification |
-| 4 | Tell me about the famous market in central Saigon where visitors can shop and eat street food. | Paraphrase | G01 | G01 among top-k | Correctly identifies Ben Thanh Market | Pending runtime verification |
-| 5 | What time does Ben Thanh Market open? | Not in guide | G01 has no opening-hours field | Any top-k | `I don't know` | Pending runtime verification |
-| 6 | What is the ticket price for Landmark 81? | Not in guide | G09 has no price field | Any top-k | `I don't know` | Pending runtime verification |
+| # | Question | Type | Expected entry ID | Expected result | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| 1 | What can I buy at Ben Thanh Market? | Answerable | G01 | Correct answer with `[G01]` | ✅ **Chatbot:** You can buy clothing, souvenirs, and typical street food at Ben Thanh Market [G01] |
+| 2 | Where can I learn about the Vietnam War? | Answerable | G03 | Correct answer with `[G03]` | ✅ **Chatbot:** You can learn about the Vietnam War at the War Remnants Museum [G03] |
+| 3 | Where can I see a panoramic view of the city? | Answerable | G09 | Correct answer with `[G09]` | ✅ **Chatbot:** You can see a panoramic view of the city at Landmark 81 [G09] |
+| 4 | Tell me about the famous market in central Saigon where visitors can shop and eat street food. | Paraphrase | G01 | Correctly identifies Ben Thanh Market | ✅ **Chatbot:** Ben Thanh Market is one of the most famous symbols of Ho Chi Minh City and offers shopping for clothing and souvenirs alongside typical street food [G01]. Tan Dinh Market is also a prominent street food paradise and the most abundant fabric selling place in Saigon, where visitors can enjoy crab soup, sweet soup, and other snacks [G16]. Both markets are located in central Saigon and fit the description of famous destinations for shopping and street food experiences |
+| 5 | What time does Ben Thanh Market open? | Not in guide | G01 has no opening-hours field | `I don't know` | ✅ **Chatbot:** I don't know |
+| 6 | What is the ticket price for Landmark 81? | Not in guide | G09 has no price field | `I don't know` | ✅ **Chatbot:** I don't know |
 
 ## Known Limitations
 
@@ -143,4 +144,4 @@ ChatGPT/Codex was used to assist with:
 
 ## Demonstration Video
 
-Video link: [Demonstration Video]()
+Video link: [Demonstration Video](https://drive.google.com/drive/folders/1Vin7fKkcOjFJhQohczAjql7cIrcXRt8z?usp=sharing)
